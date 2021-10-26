@@ -1,0 +1,9 @@
+-   id: pkgcheck
+    name: pkgcheck
+    entry: pkgcheck
+    language: python
+    'files': \.ebuild$
+    args: ["ci", "--exit=GentooCI", "--color=n", "--failures=failures.json"]
+    require_serial: false
+    additional_dependencies: []
+    minimum_pre_commit_version: '0'
