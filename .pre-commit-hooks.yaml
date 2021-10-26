@@ -2,7 +2,7 @@
     name: pkgcheck
     entry: pkgcheck
     language: python
-    'files': \.ebuild$
+    files: \.ebuild$
     args: ["ci", "--exit=GentooCI", "--color=n", "--failures=failures.json"]
     require_serial: false
     additional_dependencies: []
