@@ -3,7 +3,7 @@
     entry: pkgcheck
     language: python
     files: \.ebuild$
-    args: ["ci", "--exit=GentooCI", "--color=n", "--failures=failures.json"]
+    args: ["scan", "--cache=no", "--color=no"]
     require_serial: false
     additional_dependencies: []
     minimum_pre_commit_version: '0'
