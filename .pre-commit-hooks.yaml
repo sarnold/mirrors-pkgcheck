@@ -2,7 +2,7 @@
     name: pkgcheck
     entry: pkgcheck
     language: python
-    files: \.ebuild$
+    'files': \.ebuild$
     args: ["scan", "--cache=no", "--color=no"]
     require_serial: false
     additional_dependencies: []
