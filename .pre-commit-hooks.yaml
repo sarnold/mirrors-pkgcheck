@@ -1,5 +1,6 @@
 -   id: pkgcheck
     name: pkgcheck
+    description: ''
     entry: pkgcheck
     language: python
     'files': \.ebuild$
